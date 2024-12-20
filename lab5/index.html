@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Encryption Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RSA Шифрование</h1>
+        <textarea id="message" placeholder="Enter your message here..."></textarea>
+        <button id="generateKeys">Создать ключи шифрования</button>
+        <button id="encryptMessage">Зашифровать</button>
+        <button id="decryptMessage">Расшифровать</button>
+        <button id="signMessage">Верифицировать</button>
+        <button id="verifySignature">Проверить верификацию</button>
+        <div class="output">
+            <h3>Вывод:</h3>
+            <textarea id="outputText"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

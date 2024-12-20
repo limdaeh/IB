@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифровщик сообщений</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Шифровщик сообщений</h1>
+        <div class="form-group">
+            <label for="message">Сообщение:</label>
+            <textarea id="message" rows="4" placeholder="Введите сообщение для шифрования"></textarea>
+        </div>
+
+        <div class="buttons">
+            <button id="generateKey">Сгенерировать ключ</button>
+            <button id="encryptBtn">Зашифровать</button>
+            <button id="decryptBtn">Расшифровать</button>
+            <button id="crackBtn">Взломать</button>
+        </div>
+
+        <div class="result">
+            <h2>Результат:</h2>
+            <textarea id="result" rows="4" readonly></textarea>
+        </div>
+        
+        <div class="key">
+            <h3>Ключ:</h3>
+            <textarea id="key" rows="2" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
